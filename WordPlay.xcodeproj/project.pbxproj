@@ -13,6 +13,12 @@
 		A85FC6DE1C4489CB001C564D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85FC6DC1C4489CB001C564D /* Main.storyboard */; };
 		A85FC6E01C4489CB001C564D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85FC6DF1C4489CB001C564D /* Assets.xcassets */; };
 		A85FC6E31C4489CB001C564D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85FC6E11C4489CB001C564D /* LaunchScreen.storyboard */; };
+		A8D2EE8B1C448E6D001A00A0 /* DayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D2EE8A1C448E6D001A00A0 /* DayViewController.m */; };
+		A8D2EE8E1C448E75001A00A0 /* NameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D2EE8D1C448E75001A00A0 /* NameViewController.m */; };
+		A8D2EE911C448E7E001A00A0 /* PlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D2EE901C448E7E001A00A0 /* PlaceViewController.m */; };
+		A8D2EE941C448E86001A00A0 /* AdjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D2EE931C448E86001A00A0 /* AdjectiveViewController.m */; };
+		A8D2EE971C448E90001A00A0 /* NounViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D2EE961C448E90001A00A0 /* NounViewController.m */; };
+		A8D2EE9A1C44900E001A00A0 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D2EE991C44900E001A00A0 /* ResultsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,18 @@
 		A85FC6DF1C4489CB001C564D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A85FC6E21C4489CB001C564D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A85FC6E41C4489CB001C564D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8D2EE891C448E6D001A00A0 /* DayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayViewController.h; sourceTree = "<group>"; };
+		A8D2EE8A1C448E6D001A00A0 /* DayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayViewController.m; sourceTree = "<group>"; };
+		A8D2EE8C1C448E75001A00A0 /* NameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameViewController.h; sourceTree = "<group>"; };
+		A8D2EE8D1C448E75001A00A0 /* NameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameViewController.m; sourceTree = "<group>"; };
+		A8D2EE8F1C448E7E001A00A0 /* PlaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceViewController.h; sourceTree = "<group>"; };
+		A8D2EE901C448E7E001A00A0 /* PlaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceViewController.m; sourceTree = "<group>"; };
+		A8D2EE921C448E86001A00A0 /* AdjectiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdjectiveViewController.h; sourceTree = "<group>"; };
+		A8D2EE931C448E86001A00A0 /* AdjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdjectiveViewController.m; sourceTree = "<group>"; };
+		A8D2EE951C448E90001A00A0 /* NounViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NounViewController.h; sourceTree = "<group>"; };
+		A8D2EE961C448E90001A00A0 /* NounViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NounViewController.m; sourceTree = "<group>"; };
+		A8D2EE981C44900E001A00A0 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		A8D2EE991C44900E001A00A0 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +80,18 @@
 				A85FC6D71C4489CB001C564D /* AppDelegate.m */,
 				A85FC6D91C4489CB001C564D /* ViewController.h */,
 				A85FC6DA1C4489CB001C564D /* ViewController.m */,
+				A8D2EE891C448E6D001A00A0 /* DayViewController.h */,
+				A8D2EE8A1C448E6D001A00A0 /* DayViewController.m */,
+				A8D2EE8C1C448E75001A00A0 /* NameViewController.h */,
+				A8D2EE8D1C448E75001A00A0 /* NameViewController.m */,
+				A8D2EE8F1C448E7E001A00A0 /* PlaceViewController.h */,
+				A8D2EE901C448E7E001A00A0 /* PlaceViewController.m */,
+				A8D2EE921C448E86001A00A0 /* AdjectiveViewController.h */,
+				A8D2EE931C448E86001A00A0 /* AdjectiveViewController.m */,
+				A8D2EE951C448E90001A00A0 /* NounViewController.h */,
+				A8D2EE961C448E90001A00A0 /* NounViewController.m */,
+				A8D2EE981C44900E001A00A0 /* ResultsViewController.h */,
+				A8D2EE991C44900E001A00A0 /* ResultsViewController.m */,
 				A85FC6DC1C4489CB001C564D /* Main.storyboard */,
 				A85FC6DF1C4489CB001C564D /* Assets.xcassets */,
 				A85FC6E11C4489CB001C564D /* LaunchScreen.storyboard */,
@@ -150,9 +180,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8D2EE941C448E86001A00A0 /* AdjectiveViewController.m in Sources */,
+				A8D2EE911C448E7E001A00A0 /* PlaceViewController.m in Sources */,
 				A85FC6DB1C4489CB001C564D /* ViewController.m in Sources */,
 				A85FC6D81C4489CB001C564D /* AppDelegate.m in Sources */,
+				A8D2EE8E1C448E75001A00A0 /* NameViewController.m in Sources */,
 				A85FC6D51C4489CB001C564D /* main.m in Sources */,
+				A8D2EE9A1C44900E001A00A0 /* ResultsViewController.m in Sources */,
+				A8D2EE971C448E90001A00A0 /* NounViewController.m in Sources */,
+				A8D2EE8B1C448E6D001A00A0 /* DayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +337,7 @@
 				A85FC6E91C4489CB001C564D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
